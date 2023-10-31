@@ -1,0 +1,29 @@
+.Lista {
+  margin: auto;
+  background-color: #8C8C8C; /* rgb(140, 140, 140) */
+  width: 90vw;
+  border-radius: 10px; /* Dodaje zaokrąglone rogi */
+  padding: 20px; /* Dodaje trochę wewnętrznego odstępu */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Dodaje cień */
+}
+
+.Lista li {
+  list-style: none; /* Usuwa domyślne znaczniki listy */
+  padding: 10px; /* Dodaje odstęp do elementów listy */
+  border-bottom: 1px solid #ccc; /* Dodaje dolną krawędź do elementów listy */
+}
+
+.button {
+  margin-left: 10px;
+  background-color: #007BFF; /* Niebieski */
+  color: white; /* Biały tekst */
+  padding: 10px 20px; /* Odstępy wewnętrzne */
+  border: none; /* Usuwa domyślną ramkę */
+  border-radius: 5px; /* Zaokrągla rogi */
+  cursor: pointer; /* Zmienia kursor na "rękę" */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Ciemniejszy niebieski na najechaniu */
+}
+
